@@ -1,0 +1,205 @@
+/*body*/
+#background{
+    clear: both; /*플로팅 해제 */
+    width: 1519px;
+    height: 3200px;
+    overflow: hidden; /*영역 넘치면 감춤 */
+    position: relative;
+}
+h2{
+    border-right: 5px solid #00409B;
+    width: 150px;
+    position: relative; /*위치를 상대적으로 베정 */
+    top: 90px;
+    left: 300px;
+}
+table {
+    width: 600px;
+    height: 300px;
+    margin: 150px auto 30px auto;
+    border-collapse : collapse;
+}
+td , th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 10px;
+}
+table tr:first-child  {
+    border-top: 4px solid #00409B;
+}
+table th {
+    background-color: #e6ebf6;
+}
+th:first-child{
+    border-left: none;
+}
+td:last-child{
+    border-right: none;
+}
+.management{
+    width: 450px;
+    height: 150px;
+    margin: 150px auto 0 auto;
+    display: flex;
+}
+.management div {
+    flex: 1;
+    border-radius: 100%;
+    margin: 5px;
+    margin-right: -9px;
+    position: relative;
+    border: 3.5px solid #00409B;
+}
+.management div:last-child {
+    margin-right: 0px; 
+}
+.management div h3 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.line{
+    text-align: center; 
+}
+.line img {
+    width: 500px;
+    height: 100px;
+}
+.management2 {
+    width: 800px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    display: flex;
+}
+.management2 > div {
+    border: 2px solid #00409B;
+    background-color: #c8d1e6be;
+    border-radius: 10px;
+    margin: 0 5px 0 auto;
+    padding: 5px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.hist{
+    margin-top: 150px;
+    display: flex;
+}
+.hist ol {
+    list-style-type: none;
+    padding-top: 15px;
+    padding-bottom: 60px;
+}
+.hist li {
+    font-size: 13px;
+    line-height: 25px;
+}
+.hist1 {
+    padding-left: 450px;
+    padding-top: 140px;
+    text-align: right; 
+}
+.hist2 {
+    position: relative;
+}
+
+.hist1 h3 {
+    position: relative;
+    font-size: 25px;
+    color: black;
+    line-height: 1;
+    z-index: 1;
+}
+.hist1 h3:before {
+    content: "";
+    position: absolute;
+    right: -43px;
+    top: 50%;
+    width: 17px;
+    height: 17px;
+    border-radius: 100%;
+    background-color: white;
+    border: 5px solid #00409B;
+    box-sizing: border-box;
+    transform: translateY(-50%);
+}
+.hist1 div {
+    position: relative;
+    padding-right: 50px; 
+    box-sizing: border-box;
+}
+.hist1 div:before {
+    content: "";
+    position: absolute;
+    right: 14px;
+    top: 0;
+    width: 2px;
+    height: 100%;
+    background-color: lightgray;
+}
+.hist2 h3 {
+    position: relative;
+    font-size: 25px;
+    color: black;
+    line-height: 1;
+}
+.hist2 h3:before {
+    content: "";
+    position: absolute;
+    left: -39px;
+    top: 50%;
+    width: 17px;
+    height: 17px;
+    border-radius: 100%;
+    background-color: white;
+    border: 5px solid #00409B;
+    box-sizing: border-box;
+    transform: translateY(-50%);
+}
+.hist2 div {
+    position: relative;
+    padding-left: 15px; 
+    box-sizing: border-box;
+}
+.hist2 div:before {
+    content: "";
+    position: absolute;
+    left: -16px;
+    top: 0;
+    width: 2px;
+    height: 100%;
+    background-color: lightgray;
+}
+.hist2 div:first-child:before{
+    top: 10px;
+    height: calc(100% - 10px);
+}
+.map {
+    margin-top: 150px;
+    text-align: center;
+}
+.btn {
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color: lightgrey;
+    border-radius: 100%;
+    position: fixed;
+    right: 100px;
+    bottom: 50px;
+    cursor: pointer;
+    transform: rotate(90deg);
+    z-index: 1;
+}
+.btn > h {
+    font-size : 30px;
+    position: relative;
+    bottom: 2.2px;
+    left: 12.3px;
+}

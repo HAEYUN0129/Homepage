@@ -1,0 +1,60 @@
+* {
+    text-align: center;
+}
+/*body*/
+#background{
+    clear: both; /*플로팅 해제 */
+    width: 1519px;
+    height: 800px;
+    overflow: hidden; /*영역 넘치면 감춤 */
+    position: relative;
+}
+h2 {
+    border-right: 5px solid #00409B;
+    width: 170px;
+    position: relative; /*위치를 상대적으로 베정 */
+    top: 120px;
+    left: 300px;
+}
+table, td, th {
+    word-break:break-all;
+    padding: 5px;
+    table-layout: fixed;
+    border-collapse : collapse;
+}
+.table1 {
+    width: 900px;
+    height: 350px;
+    margin-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.table1 img{
+    width: 200px;
+    height: 250px;
+}
+.table1 td:last-child img {
+    border: 1.5px solid black;
+}
+.table2 {
+    width: 700px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.table2 td,.table2 th{ /* > 사용하면 적용 X*/
+    border: 1px solid black;
+}
+.two {
+    width: 300px;
+}
+.table2 td:first-child,.table2 th:first-child {
+    border-left: none;
+}
+.table2 td:last-child,.table2 th:last-child {
+    border-right: none;
+}
+.table2 th {
+    background-color: #00409B;
+    color: white;
+}

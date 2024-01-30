@@ -1,0 +1,70 @@
+
+/*body*/
+* {
+    text-align: center;
+}
+#background{
+    clear: both; /*플로팅 해제 */
+    width: 1519px;
+    height: 4500px;
+    overflow: hidden; /*영역 넘치면 감춤 */
+    position: relative;
+}
+h2 {
+    border-right: 5px solid #00409B;
+    width: 150px;
+    position: relative; /*위치를 상대적으로 베정 */
+    top: 120px;
+    left: 300px;
+}
+table {
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+table, tr, td {
+    word-break:break-all;
+    padding: 30px;
+    table-layout: fixed;
+    border-collapse : collapse;
+  /* border: 1px solid black;*/
+}
+td {
+    width: 400px;
+    height: 350px;
+}
+.text {
+    text-align: left;
+    font-size: small;
+    line-height: 1.9;
+}
+h4 {
+    border: 2px solid #00409B;
+    padding: 5px;
+}
+.text > h {
+    font-weight: bold; /*부모 요소에 따라 상대적인 굵기로 바뀜 / bold는 그냥 두꺼워짐 상ㄷㅐ적 X*/
+}
+.img > img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;/*원본 비율 유지하면서 사진 첨부*/
+}
+.btn {
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color: lightgrey;
+    border-radius: 100%;
+    position: fixed;
+    right: 100px;
+    bottom: 50px;
+    cursor: pointer;
+    transform: rotate(90deg);
+    z-index: 1;
+}
+.btn > h {
+    font-size : 30px;
+    position: relative;
+    bottom: 2.2px;
+}

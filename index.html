@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>주식회사 해윤</title>
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <div id="logo">
+                <a href="index.html"><input type="image" src="images/logo.png" alt="로고" style="width:300px;height:74px;"></a>
+            </div>
+            <nav>
+                <ul id="topMenu">
+                    <li><a id="border" href="introduce.html">회사 소개 <span>▼</span></a>
+                        <ul class="subMenu">
+                            <li><a href="introduce.html#summary">회사개요</a></li>
+                            <li><a href="introduce.html#comhist">연혁</a></li>
+                            <li><a href="introduce.html#come">오시는 길</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="product.html">제품 소개</a></li>
+                    <li><a href="patents.html">특허 및 인증</a></li>
+                </ul>
+            </nav>
+            <div class="en">
+                <a href="index.html">Home</a> <a>|</a> <a href="main_en.html">English</a>
+            </div>
+        </header>
+        <div id="background">
+            <div id="word">
+                <h1>미래를 여는 산업 자동화 선두기업 해윤</h1>
+            </div>
+            <div id="word2">
+                <h2>탁월한 기술력과 경쟁력으로 최적의 솔루션을 제공합니다.</h2>
+            </div>
+            <div id="slides">
+                <img class="slide" src="images/product6.jpg" alt="사진1">
+                <img class="slide" src="images/product9.jpg" alt="사진2">
+                <img class="slide" src="images/product5.jpg" alt="사진3">
+                <a id="prev" onclick="clickSlides(-1)"><span>&#10094;</span></a>
+                <a id="next" onclick="clickSlides(1)"><span>&#10095;</span></a>
+            </div>
+            <div id="customer">
+                <h3>고객 문의 <span>☎️</span></h3>
+                <table>
+                    <tr>
+                        <th>연락처 / 팩스</th>
+                        <td>T. 041-546-6407 / F. 0504-033-1127</td>
+                    </tr>
+                    <tr>
+                        <th>이메일</th>
+                        <td>haeyun-2008@naver.com</td>
+                    </tr>
+                    <tr>
+                        <th>주소</th>
+                        <td>충청남도 아산시 음봉면 연암율금로 144</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <footer>
+            <div id="logo2">
+                <input type="image" src="images/logo.png" alt="로고" style="width:300px;height:74px;">
+            </div>
+            <div id="foot">
+                <div id="company">
+                    <ul>
+                        <li>주식회사 해윤</li>
+                        <li>T. 041-546-6407</li>
+                        <li>F. 0504-033-1127</li>
+                        <li>E-mail. haeyun-2008@naver.com</li>
+                        <li>주소. 충청남도 아산시 음봉면 연암율금로 144</li>
+                    </ul>
+                </div>
+                <div id="notice">
+                    <ul>
+                        <li>COPYRIGHT © HAEYUN Co.,Ltd. ALL RIGHTS RESERVED</li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="js/slideshow.js"></script>
+    <script src="js/ani.js"></script>
+</body>
+</html>
